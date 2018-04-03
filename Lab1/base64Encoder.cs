@@ -17,13 +17,13 @@ namespace ConsoleApplication8
                                      'e','f','g','h','i','j','k','l','m','n','o','p','q','r','s',
                                      't','u','v','w','x','y','z','0','1','2','3','4','5','6','7',
                                      '8','9','+','/','=' };
-            byte[] bytes = ReadFile("poderev.txt");
+            byte[] bytes = ReadFile(args[0]);
             List<char> result = new List<char>();
 
             Encode(result, bytes, dict);
             //Encode("poderev.txt", "result.txt");
             Console.WriteLine(Convert.ToBase64String(bytes));
-            using (StreamWriter sw = new StreamWriter("result.txt"))
+            using (StreamWriter sw = new StreamWriter(args[1]))
             {
                 sw.Write(new String(result.ToArray()));
             }
