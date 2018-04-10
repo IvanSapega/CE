@@ -42,7 +42,9 @@ def actions(path, name):
 
 	
 
-actions('E:\\Study (H)\\', 'poderev')
-actions('E:\\Study (H)\\', 'trinadcyatui')
-actions('E:\\Study (H)\\', 'PCI')
-actions('E:\\Study (H)\\', 'result')
+actions('E:\\DB\\CE\\Lab1\\', 'poderev')
+actions('E:\\DB\\CE\\Lab1\\', 'trinadcyatui')
+actions('E:\\DB\\CE\\Lab1\\', 'PCI')
+actions('E:\\DB\\CE\\Lab1\\', 'poderev64')
+actions('E:\\DB\\CE\\Lab1\\', 'trinadcyatui64')
+actions('E:\\DB\\CE\\Lab1\\', 'PCI64')
